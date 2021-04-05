@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Matt Claffey @mattclaffey1",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "release": "cross-env HUSKY_BYPASS=true lerna publish"
   },
