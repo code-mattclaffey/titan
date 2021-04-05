@@ -3,5 +3,6 @@
   "version": "0.2.1",
   "main": "index.js",
   "author": "Matt Claffey",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "a6b4435ac55afb409b16f5d7b681185032fdfada"
 }
