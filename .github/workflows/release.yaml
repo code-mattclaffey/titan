@@ -16,5 +16,8 @@ jobs:
       - name: yarn install
         run: yarn
 
-      - name: Lerna Deploy
+      - name: Build
+        run: yarn build
+
+      - name: Deploy
         run: yarn release
