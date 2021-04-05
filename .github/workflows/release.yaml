@@ -1,0 +1,20 @@
+name: Deploy packages
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs: 
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+
+      - name: yarn install
+        run: yarn
+
+      - name: Lerna Deploy
+        run: yarn release
