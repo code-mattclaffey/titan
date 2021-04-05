@@ -6,5 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "@titan/ui-css": "^0.1.0"
-  }
+  },
+  "gitHead": "6d264dd6c4ebbc693c94d0e47165e90187f87ab3"
 }
