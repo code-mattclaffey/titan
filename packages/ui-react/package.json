@@ -1,10 +1,10 @@
 {
   "name": "@titan/ui-react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Matt Claffey",
   "license": "MIT",
   "dependencies": {
-    "@titan/ui-css": "^0.0.0"
+    "@titan/ui-css": "^0.1.0"
   }
 }
