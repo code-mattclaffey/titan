@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/code-mattclaffey/titan/compare/@titan/ui-css@0.1.0...@titan/ui-css@0.2.1) (2021-04-05)
+
+
+### Bug Fixes
+
+* testing if doing lerna version publishes to github ([a132cab](https://github.com/code-mattclaffey/titan/commit/a132cabd8afec9d62a8e5702a5127b3c981d8879))
+
+
+
+
+
 # 0.2.0 (2021-04-05)
 
 
