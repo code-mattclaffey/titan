@@ -4,5 +4,8 @@
   "main": "index.js",
   "author": "Matt Claffey",
   "license": "MIT",
-  "gitHead": "623e78af4f56e34cb82a4311ff9fe2cd5a1024be"
+  "gitHead": "623e78af4f56e34cb82a4311ff9fe2cd5a1024be",
+  "scripts": {
+    "build": "echo 'Hello'"
+  }
 }
