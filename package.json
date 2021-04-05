@@ -1,0 +1,30 @@
+{
+  "name": "titan",
+  "version": "0.0.0",
+  "description": "Mono repo for Matts personal work",
+  "main": "index.js",
+  "author": "Matt Claffey @mattclaffey1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "release": "cross-env HUSKY_BYPASS=true lerna publish"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "cross-env": "^7.0.3",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+      "extends": ["@commitlint/config-conventional"]
+  }
+}

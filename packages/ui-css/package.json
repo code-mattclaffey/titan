@@ -1,0 +1,7 @@
+{
+  "name": "@titan/ui-css",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Matt Claffey",
+  "license": "MIT"
+}
