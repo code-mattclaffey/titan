@@ -1,5 +1,5 @@
 {
-  "name": "titan",
+  "name": "mc-titan",
   "version": "0.0.0",
   "description": "Mono repo for Matts personal work",
   "main": "index.js",

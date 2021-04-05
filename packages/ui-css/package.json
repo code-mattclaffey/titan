@@ -1,8 +1,8 @@
 {
-  "name": "@titan/ui-css",
+  "name": "@mc-titan/ui-css",
   "version": "0.2.2",
   "main": "index.js",
   "author": "Matt Claffey",
   "license": "MIT",
-  "gitHead": "a6b4435ac55afb409b16f5d7b681185032fdfada"
+  "gitHead": "687afd203e23d9b39a0c4d20acb11e651ec76572"
 }
